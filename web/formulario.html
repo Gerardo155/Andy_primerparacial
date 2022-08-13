@@ -16,7 +16,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <nav class="navbar navbar-dark bg-dark">
          
            <form action="http://localhost:8090/Lima_parcial1/">
-          <button type="submit" class="btn btn-primary">Formulario</button>
+          <button type="submit" class="btn btn-primary">Menu principal</button>
         
         </form>
         
@@ -28,36 +28,36 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             <h1>_________FORMULARIO PARA REGISTRO DE LIBROS_________</h1>
                     
                     
-        <form>
+        <form action="NewServlet">
         <div class="form-group">
      
       <div class="form-group">
                 <label for="exampleInputName">Codigo</label>
-                <input class="form-control" type="text" placeholder="Ingresar codigo">
+                <input class="form-control" type="text" placeholder="Ingresar codigo" name="codigo">
             </div>
       
             <div class="form-group">
                 <label for="exampleInputName">Nombre del libro</label>
-                <input class="form-control" type="text" placeholder="Ingresar nombre">
+                <input class="form-control" type="text" placeholder="Ingresar nombre" name="nombre">
             </div>
       
                 <div class="form-group">
                 <label for="exampleInputName">Tipo de pasta</label>
-                <input class="form-control" type="text" placeholder="Ingresar pasta">
+                <input class="form-control" type="text" placeholder="Ingresar pasta" name="pasta">
             </div>
       
             <div class="form-group">
                 <label for="exampleInputName">Nombre de editorial</label>
-                <input class="form-control" type="text" placeholder="Ingresar editorial">
+                <input class="form-control" type="text" placeholder="Ingresar editorial" name="editorial">
             </div>
       
             <div class="form-group">
                 <label for="exampleInputName">Año de publicacion</label>
-                <input class="form-control" type="text" placeholder="Ingresar año">
+                <input class="form-control" type="text" placeholder="Ingresar año" name="año">
             </div>
       
   
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
         
     </div>

@@ -10,4 +10,34 @@ package clases;
  */
 public class libroController {
     
+    libro[] tablaLibros;
+    int indiceArray;
+    
+    
+    
+    
+     public libroController(){
+    
+        this.tablaLibros= new libro[100];
+        this.indiceArray = 0;
+    
+    }
+    
+    
+     
+     public void guardarLibros(libro librog){
+    this.tablaLibros[this.indiceArray]=librog;
+        this.indiceArray=this.indiceArray + 1;
+   
+    }
+    
+    
+    public libro[] getLibros(){
+    return this.tablaLibros;
+      
+    }
+     
+     
+     
+    
 }
